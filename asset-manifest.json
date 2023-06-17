@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/memory-card-game/static/css/main.f1d7340e.css",
-    "main.js": "/memory-card-game/static/js/main.7222a9bb.js",
+    "main.js": "/memory-card-game/static/js/main.95eee81a.js",
     "static/media/berserker-ring.png": "/memory-card-game/static/media/berserker-ring.2114663a57b0c4b45817.png",
     "static/media/avas-assembler.png": "/memory-card-game/static/media/avas-assembler.a98f6b1013dc556437f1.png",
     "static/media/dragon-pickaxe.png": "/memory-card-game/static/media/dragon-pickaxe.58749ece0c3567f497ba.png",
@@ -18,10 +18,10 @@
     "static/media/RuneScape-Chat-07.woff2": "/memory-card-game/static/media/RuneScape-Chat-07.a89215c25e50b1b8c919.woff2",
     "index.html": "/memory-card-game/index.html",
     "main.f1d7340e.css.map": "/memory-card-game/static/css/main.f1d7340e.css.map",
-    "main.7222a9bb.js.map": "/memory-card-game/static/js/main.7222a9bb.js.map"
+    "main.95eee81a.js.map": "/memory-card-game/static/js/main.95eee81a.js.map"
   },
   "entrypoints": [
     "static/css/main.f1d7340e.css",
-    "static/js/main.7222a9bb.js"
+    "static/js/main.95eee81a.js"
   ]
 }
