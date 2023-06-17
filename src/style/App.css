@@ -1,7 +1,43 @@
+@font-face {
+  font-family: "RuneScape Chat '07";
+  src: url("../fonts/RuneScape-Chat-07.woff2") format("woff2"),
+    url("../fonts/RuneScape-Chat-07.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "RuneScape Chat '07", system-ui, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #f9f3eb;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #c0a886;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
-  width: 90%;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 400px 400px;
   gap: 30px;
+  align-self: center;
+  font-family: inherit;
+  font-size: 2rem;
+  margin: 20px;
 }
