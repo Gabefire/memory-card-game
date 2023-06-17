@@ -6,6 +6,12 @@ import avasAssembler from "../assets/avas-assembler.png";
 import bandosChestplate from "../assets/bandos-chestplate.png";
 import barrowsGloves from "../assets/barrows-gloves.png";
 import dragonScimitar from "../assets/dragon-scimitar.png";
+import berserkerRing from "../assets/berserker-ring.png";
+import bloodRune from "../assets/blood-rune.png";
+import coins from "../assets/coins.png";
+import draconicVisage from "../assets/draconic-visage.png";
+import abyssalWhip from "../assets/abyssal-whip.png";
+import dragonPickaxe from "../assets/dragon-pickaxe.png";
 
 const Card = ({ countScore }) => {
   const [imageArray, setImageArray] = useState([
@@ -15,12 +21,12 @@ const Card = ({ countScore }) => {
     { url: bandosChestplate, text: "Bandos Chestplate" },
     { url: barrowsGloves, text: "Barrows Gloves" },
     { url: dragonScimitar, text: "Dragon Scimitar" },
-    { url: "./assets/berserker-ring.png", text: "Berserker Ring" },
-    { url: "./assets/blood-rune.png", text: "Blood Rune" },
-    { url: "./assets/coins.png", text: "Coins" },
-    { url: "./assets/draconic-visage.png", text: "Draconic Visage" },
-    { url: "./assets/abyssal-whip.png", text: "Abyssal Whip" },
-    { url: "./assets/dragon-pickaxe.png", text: "Dragon Pickaxe" },
+    { url: berserkerRing, text: "Berserker Ring" },
+    { url: bloodRune, text: "Blood Rune" },
+    { url: coins, text: "Coins" },
+    { url: draconicVisage, text: "Draconic Visage" },
+    { url: abyssalWhip, text: "Abyssal Whip" },
+    { url: dragonPickaxe, text: "Dragon Pickaxe" },
   ]);
 
   const shuffleImageArray = () => {

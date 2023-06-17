@@ -1,5 +1,5 @@
 .card {
-  border: 2px solid black;
+  cursor: pointer;
   width: 100%;
   background-color: #d8ccb4;
   display: flex;

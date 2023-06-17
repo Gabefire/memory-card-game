@@ -3,8 +3,8 @@ import React, { useState } from "react";
 const ScoreBoard = ({ currentScore, bestScore }) => {
   return (
     <>
-      <div id="currentScore">{currentScore}</div>
-      <div id="bestScore">{bestScore}</div>
+      <div id="currentScore">Current Score: {currentScore}</div>
+      <div id="bestScore">Best Score: {bestScore}</div>
     </>
   );
 };
