@@ -11,7 +11,9 @@ const App = () => {
   const keepScore = (text) => {
     if (currentStreakArray.includes(text)) {
       setCurrentStreakArray([]);
-      setBestScore(currentScore);
+      if (currentScore > bestScore) {
+        setBestScore(currentScore);
+      }
       setCurrentScore(0);
     } else {
       setCurrentStreakArray((currentStreakArray) => [
